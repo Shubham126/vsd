@@ -4,8 +4,8 @@ import './globals.css';
 import Navbar from './components/Navbar';
 
 export const metadata: Metadata = {
-  title: 'My Next.js App',
-  description: 'Modern app with App Router',
+  title: 'VSD',
+  description: 'Engineering and Services',
 };
 
 export default function RootLayout({
