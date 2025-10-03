@@ -1,8 +1,9 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
-    <div>
-      <h1 className = "text-white">Home Page</h1>
-      <p className = "text-white">Welcome to the app! Use the nav above to explore.</p>
+    <div className = "text-white">
+      This is my main page
     </div>
   );
 }

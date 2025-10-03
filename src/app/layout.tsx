@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import './globals.css';  // Optional: Global styles (create if needed)
+import './globals.css';
+import Navbar from './components/Navbar';
 
 export const metadata: Metadata = {
   title: 'My Next.js App',
@@ -15,13 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className = "bg-black" >
-        <nav>
-          <ul style={{ listStyle: 'none', display: 'flex', gap: '3rem' }}>
-            <li className = "text-white" ><Link href="/">Home</Link></li>
-            <li className = "text-white" ><Link href="/about">About</Link></li>
-            <li className = "text-white" ><Link href="/contact">Contact Me</Link></li>
-          </ul>
-        </nav>
+        <Navbar />
+        <Link href = "/"></Link>
         <main>{children}</main>
       </body>
     </html>
