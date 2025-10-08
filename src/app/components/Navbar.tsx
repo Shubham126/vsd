@@ -8,9 +8,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className="flex justify-between items-center px-6 py-4 bg-black">
             <Image src={fssai} alt="fssai" width={70} height={70}></Image>
-            <Image src={iso} alt="fssai" width={70} height={70}></Image>
-            {/* <Image src =""></Image> */}
-         
+            <Image src={iso} alt="fssai" width={70} height={90}></Image>         
         </nav>
     )
 }
